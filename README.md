@@ -12,7 +12,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   - _[metricbeat-playbook.yml](https://github.com/Hermsd/Project-1-Deploying-ELK-Stack/blob/af268604b97384657c17e9ff3fce6e6d870fd6e1/Ansible/metricbeat-playbook.yml)_
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
@@ -24,22 +24,24 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly _____, in addition to restricting _____ to the network.
-- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_
+Load balancing ensures that the application will be highly efficient, in addition to restricting access to the network.
+
+Additionally, by routing user requests evenly across a group of servers, load balancers minimize the likelihood of downtime. They do this by rerouting traffic to other servers in the group if one should fail, resluting in eliminating a single point of failure if the network is attacked. 
+  
+The main advantage of the jump box VM is that it acts as an intermediary between the internet and web machines. Because the Jump box VM is the only machine that connect to the servers it adds an additional layer of protection, restricting communication on  ports that can access the web machines. 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
 - _TODO: What does Filebeat watch for?_
 - _TODO: What does Metricbeat record?_
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name     | Function | IP Address | Operating System |
-|----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| Name     | Function  | IP Address | Operating System |
+|----------|-----------|------------|------------------|
+| Jump Box | Gateway   | 10.0.0.4   | Linux            |
+| Web-1    | Webserver | 10.0.0.5   | Linux            |
+| Web-2    | Webserver | 10.0.0.6   | Linux            |
+| Web-3    | Webserver | 10.0.0.7   | Linux            |
 
 ### Access Policies
 
