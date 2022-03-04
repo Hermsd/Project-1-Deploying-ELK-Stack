@@ -1,5 +1,6 @@
 # Project-1-Deploying-ELK-Stack
 The purpose of this project is to create, configure, and deploy a live security solution using ELK Stack.
+
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
@@ -30,25 +31,26 @@ Additionally, by routing user requests evenly across a group of servers, load ba
   
 The main advantage of the jump box VM is that it acts as an intermediary between the internet and web machines. Because the Jump box VM is the only machine that connect to the servers it adds an additional layer of protection, restricting communication on  ports that can access the web machines. 
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
-- _TODO: What does Filebeat watch for?_
-- _TODO: What does Metricbeat record?_
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the log events and system services.
+- Filebeat ships log files. It generates log files on the machines it is installed on, tailing them, and then forwarding the data to either Logstash for more advanced processing or directly into Elasticsearch for indexing.
+- Metricbeat collects metric data from your target servers that it is installed on. For example, operating system metrics such as CPU or memory or data related to services running on the server. It can also be used to monitor other beats and ELK stack itself.
 
 The configuration details of each machine may be found below.
 
 | Name     | Function  | IP Address | Operating System |
-|----------|-----------|------------|------------------|
-| Jump Box | Gateway   | 10.0.0.4   | Linux            |
-| Web-1    | Webserver | 10.0.0.5   | Linux            |
-| Web-2    | Webserver | 10.0.0.6   | Linux            |
-| Web-3    | Webserver | 10.0.0.7   | Linux            |
+|---------------|------------|------------|------------------|
+| Jump Box      | Gateway    | 10.0.0.4   | Linux            |
+| Web-1         | Webserver  | 10.0.0.5   | Linux            |
+| Web-2         | Webserver  | 10.0.0.6   | Linux            |
+| Web-3         | Webserver  | 10.0.0.7   | Linux            |
+| ELK Server    | ELK server | 10.1.0.4   | Linux            | 
 
 ### Access Policies
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the _____ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_
+Only the jump box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+- 74.81.217.35
 
 Machines within the network can only be accessed by _____.
 - _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
