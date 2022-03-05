@@ -107,10 +107,10 @@ SSH into the control node and follow the steps below:
 - http://104.42.175.47:5601
 ![Kibana](https://github.com/Hermsd/Project-1-Deploying-ELK-Stack/blob/42eda2f24b13ad66dcffe836c07282e62ecd4943/Images/Kibana.png)
 
--Filebeat
+- Filebeat
 ![Filebeat module status](https://github.com/Hermsd/Project-1-Deploying-ELK-Stack/blob/efdb48946b2454519d72239b6f211708c67ed21b/Images/filebeat%20module%20status.png)
 
--Metricbeat
+- Metricbeat
 ![Metricbeat module status](https://github.com/Hermsd/Project-1-Deploying-ELK-Stack/blob/efdb48946b2454519d72239b6f211708c67ed21b/Images/metricbeat%20module%20status.png)
 
 _TODO: Answer the following questions to fill in the blanks:_
