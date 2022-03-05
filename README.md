@@ -107,6 +107,8 @@ SSH into the control node and follow the steps below:
 - For metricbeat update the configuration file (metricbeat-config.yml) to include the ELK VMs private IP (10.1.0.4) in lines 62 and 96.
 - Run the playbooks filebeat-playbook.yml and metricbeat-playbook.yml, and navigate to http://104.42.175.47:5601 to check that the installation worked as expected.
 
+![Kibana](https://github.com/Hermsd/Project-1-Deploying-ELK-Stack/blob/42eda2f24b13ad66dcffe836c07282e62ecd4943/Images/Kibana.png)
+
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_ The playbooks filebeat-playbook.yml and metricbeat-playbook.yml were copied to /etc/ansible/roles.
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_ The hosts file. To specify which machine to install the ELK server on the hosts in the playbook must be set to use the ELK group created in the hosts file, and to install filebeat and metricbeat the hosts in the filebeat-playbook.yml and metricbeat-playbook.yml must be set to use the webservers group created in the hosts file. 
