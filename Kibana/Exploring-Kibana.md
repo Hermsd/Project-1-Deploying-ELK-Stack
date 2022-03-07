@@ -74,9 +74,13 @@
 6. Finish your investigation with a short overview of your insights. 
 
      - What do you think the user was doing?
+       - Answer: The user was downloading Kibana 
      - Was the file they downloaded malicious? If not, what is the file used for?
+       - Answer: The file they downloaded was not malicious and is used for Kibana.
      - Is there anything that seems suspicious about this activity?
+       - There is nothing suspicious about this activity. 
      - Is any of the traffic you inspected potentially outside of compliance guidlines?
+       - Answer: The only traffic that is potentially outside of the compliance guidlines is the activity that took place in China on 03/03/2022. 
 
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.  
