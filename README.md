@@ -120,7 +120,6 @@ SSH into the control node and follow the steps below:
 - To make Ansible run the playbook on a specific machine, the hosts file in /etc/ansible/ needs to be updated with groups that have the appropriate machines desired for each group. Then in order to specify the machine you want to install the ELK server on versus to install filebeat and metricbeat, the line for "hosts:" in the filebeat-playbook.yml and metricbeat-playbook.yml must be set to use the webservers group contained in the hosts file and for ELK the "hosts:" in the ELK-playbook.yml must be set to use the ELK group contained in the hosts file.
 - In order to check that the ELK server is running navigate to the URL http://104.42.175.47:5601
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
-![image](https://user-images.githubusercontent.com/93454333/156649325-3bf02eab-2463-4908-98fe-c778c35cd15a.png)
+
 
 
