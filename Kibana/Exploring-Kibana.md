@@ -39,14 +39,18 @@
      - What is the timestamp for this event?
      - What kind of file was downloaded?
      - From what country did this activity originate?
+       - United States of America
      - What HTTP response codes were encountered by this visitor?
+       - Answer: Response code 200
 
 5. Switch to the Kibana Discover page to see more details about this activity.
      - What is the source IP address of this activity?
      - What are the geo coordinates of this activity?
      - What OS was the source machine running?
      - What is the full URL that was accessed?
+       - Answer: /kibana/kibana-6.3.2-linux-x86_64.tar.gz
      - From what website did the visitor's traffic originate?
+       - Answer: artifacts.elastic.co 
 
 6. Finish your investigation with a short overview of your insights. 
 
