@@ -42,11 +42,11 @@ The configuration details of each machine may be found below.
 
 | Name          | Function   | IP Address | Operating System |
 |---------------|------------|------------|------------------|
-| Jump Box      | Gateway    | 10.0.0.4   | Linux            |
-| Web-1         | Webserver  | 10.0.0.5   | Linux            |
-| Web-2         | Webserver  | 10.0.0.6   | Linux            |
-| Web-3         | Webserver  | 10.0.0.7   | Linux            |
-| ELK VM        | ELK server | 10.1.0.4   | Linux            | 
+| Jump Box      | Gateway    | 10.0.0.4   | Ubuntu LTS 20.4  |
+| Web-1         | Webserver  | 10.0.0.5   | Ubuntu LTS 20.4  |
+| Web-2         | Webserver  | 10.0.0.6   | Ubuntu LTS 20.4  |
+| Web-3         | Webserver  | 10.0.0.7   | Ubuntu LTS 20.4  |
+| ELK VM        | ELK server | 10.1.0.4   | Ubuntu LTS 20.4  | 
 
 ### Access Policies
 
@@ -63,7 +63,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name          | Publicly Accessible   | Allowed IP Addresses |
 |---------------|-----------------------|----------------------|
-| Jump Box      | Yes                   |  74.85.200.25       |
+| Jump Box      | Yes                   |  74.85.200.25        |
 | Web-1         |  No                   |  10.0.0.4            |
 | Web-2         |  No                   |  10.0.0.4            |
 | Web-3         |  No                   |  10.0.0.4            |
