@@ -116,10 +116,9 @@ SSH into the control node and follow the steps below:
 - Metricbeat
 ![Metricbeat module status](https://github.com/Hermsd/Project-1-Deploying-ELK-Stack/blob/efdb48946b2454519d72239b6f211708c67ed21b/Images/metricbeat%20module%20status.png)
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_ The playbooks filebeat-playbook.yml and metricbeat-playbook.yml were copied to /etc/ansible/roles.
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_ The hosts file. To specify which machine to install the ELK server on the hosts in the playbook must be set to use the ELK group created in the hosts file, and to install filebeat and metricbeat the hosts in the filebeat-playbook.yml and metricbeat-playbook.yml must be set to use the webservers group created in the hosts file. 
-- _Which URL do you navigate to in order to check that the ELK server is running? http://104.42.175.47:5601
+- The playbooks that were created are DVWA-playbook.yml, ELK-playbook.yml, filebeat-playbook.yml, and metricbeat-playbook.yml were copied to /etc/ansible/roles.
+- To make Ansible run the playbook on a specific machine, the hosts file in /etc/ansible/ needs to be updated with groups that have the appropriate machines desired for each group. Then in order to specify the machine you want to install the ELK server on versus to install filebeat and metricbeat, the line for "hosts:" in the filebeat-playbook.yml and metricbeat-playbook.yml must be set to use the webservers group contained in the hosts file and for ELK the "hosts:" in the ELK-playbook.yml must be set to use the ELK group contained in the hosts file.
+- In order to check that the ELK server is running navigate to the URL http://104.42.175.47:5601
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 ![image](https://user-images.githubusercontent.com/93454333/156649325-3bf02eab-2463-4908-98fe-c778c35cd15a.png)
