@@ -50,7 +50,7 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the jump box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- 74.81.217.35
+- 74.85.200.25
 
 Machines within the network can only be accessed by Jump-Box-Provisioner.
 - Therefore, only the Jump Box machine is allowed to access the ELK VM. The Jump-Box-Provisioners IP address is as follows:
@@ -60,7 +60,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name          | Publicly Accessible   | Allowed IP Addresses |
 |---------------|-----------------------|----------------------|
-| Jump Box      | Yes                   |  74.81.217.35        |
+| Jump Box      | Yes                   |  74.85.200.25       |
 | Web-1         |  No                   |  10.0.0.4            |
 | Web-2         |  No                   |  10.0.0.4            |
 | Web-3         |  No                   |  10.0.0.4            |
