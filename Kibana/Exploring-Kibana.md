@@ -36,6 +36,7 @@
       ![Kibana-CH-Time of day with most amount of traffic](https://github.com/Hermsd/Project-1-Deploying-ELK-Stack/blob/ca7e30dfa257a548156b949492d9cb13ec574dea/Images/Kibana-CH-Time%20of%20day%20with%20most%20amount%20of%20traffic.png)   
     - List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type (use Google if you aren't sure about a particular file type).
       - Answer: CSS files (Cascading Style Sheets), which are files taht describe how HTML elements are displayed. DEB files, which are debbian software pakcage files and are used mainly in Unix-based operating systems. GZ files are compressed archives that are created by the standard GNU compression algorithm and are the most common archive file formats on Unix and Linux systems. RPM files, which are Red Hat package manager files that are used to store installation packages on Linux operating systems. Zip files, which is a common file format used to compress one or more files together in a single location. 
+      ![Kibana-Files downloaded](https://github.com/Hermsd/Project-1-Deploying-ELK-Stack/blob/9279865f1379042146a5526dff17ada856502c29/Images/Kibana-Files%20downloaded.png)
 3. Now that you have a feel for the data, Let's dive a bit deeper. Look at the chart that shows Unique Visitors Vs. Average Bytes.
      - Locate the time frame in the last 7 days with the most amount of bytes (activity).
      - In your own words, is there anything that seems potentially strange about this activity?
