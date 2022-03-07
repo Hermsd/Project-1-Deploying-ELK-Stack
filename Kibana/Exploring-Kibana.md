@@ -63,7 +63,7 @@
      - What is the source IP address of this activity?
        - Answer: 1.145.31.121
      - What are the geo coordinates of this activity?
-       - Answer: Latitude=28.2789 Longitude=-81.42779
+       - Answer: Latitude=29.18533 Longitude=-81.9838
        ![Kiabana-geo coordinates of this activity](https://github.com/Hermsd/Project-1-Deploying-ELK-Stack/blob/cb26794b7b7bbd9e946aa2b3d65bb6f5ca10ce4e/Images/Kiabana-geo%20coordinates%20of%20this%20activity.png)
      - What OS was the source machine running?
        - Answer: win 8
