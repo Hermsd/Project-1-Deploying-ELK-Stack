@@ -5,7 +5,7 @@ The purpose of this project is to create, configure, and deploy a live security 
 
 The files in this repository were used to configure the network depicted below.
 
-![Red_Team_Network_Diagram](https://github.com/Hermsd/Project-1-Deploying-ELK-Stack/blob/fb54dd0ffc7befbd972121274923c2362fd4a668/Diagrams/Red_Team_Network_Diagram.drawio.png)
+![Red_Team_Network_Diagram](https://github.com/Hermsd/Project-1-Deploying-ELK-Stack/blob/146bf3904caf5c60b31359f98fd8abc6a1074c0d/Diagrams/Red_Team_Network_Diagram.drawio.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
